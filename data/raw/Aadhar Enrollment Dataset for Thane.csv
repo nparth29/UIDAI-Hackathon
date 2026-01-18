@@ -97,7 +97,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 08-09-2025,Maharashtra,Thane,421503,0,9,0
 08-09-2025,Maharashtra,Thane,421601,7,1,0
 08-09-2025,Maharashtra,Thane,421605,3,1,0
-09-09-2025,Maharashtra,Thane,400601,8,3,1
+01-05-2025,Maharashtra,Thane,400601,80,30,14
 09-09-2025,Maharashtra,Thane,400603,1,1,0
 09-09-2025,Maharashtra,Thane,400604,4,0,0
 09-09-2025,Maharashtra,Thane,400701,4,0,0
@@ -187,7 +187,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 15-09-2025,Maharashtra,Thane,421308,0,1,0
 15-09-2025,Maharashtra,Thane,421312,1,0,0
 15-09-2025,Maharashtra,Thane,421403,1,1,0
-16-09-2025,Maharashtra,Thane,400601,1,2,0
+09-06-2025,Maharashtra,Thane,400601,6,2,0
 16-09-2025,Maharashtra,Thane,400610,0,1,0
 16-09-2025,Maharashtra,Thane,400614,2,0,0
 16-09-2025,Maharashtra,Thane,401107,10,10,0
@@ -213,7 +213,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 19-09-2025,Maharashtra,Thane,401506,2,0,0
 19-09-2025,Maharashtra,Thane,421303,2,1,0
 19-09-2025,Maharashtra,Thane,421503,5,7,0
-18-09-2025,Maharashtra,Thane,400601,3,0,0
+10-06-2025,Maharashtra,Thane,400601,4,1,0
 18-09-2025,Maharashtra,Thane,400607,4,2,0
 18-09-2025,Maharashtra,Thane,401207,1,0,0
 18-09-2025,Maharashtra,Thane,401209,2,1,0
@@ -247,7 +247,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 20-09-2025,Maharashtra,Thane,421401,1,2,0
 20-09-2025,Maharashtra,Thane,421503,10,5,0
 20-09-2025,Maharashtra,Thane,421602,2,1,0
-22-09-2025,Maharashtra,Thane,400601,1,2,0
+11-06-2025,Maharashtra,Thane,400601,10,4,0
 22-09-2025,Maharashtra,Thane,400604,6,3,0
 22-09-2025,Maharashtra,Thane,400610,1,1,0
 22-09-2025,Maharashtra,Thane,400614,1,0,0
@@ -472,7 +472,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 25-10-2025,Maharashtra,Thane,421503,6,0,0
 25-10-2025,Maharashtra,Thane,421505,2,0,0
 25-10-2025,Maharashtra,Thane,421602,1,0,0
-27-10-2025,Maharashtra,Thane,400601,3,0,0
+12-06-2025,Maharashtra,Thane,400601,5,1,0
 27-10-2025,Maharashtra,Thane,400709,4,1,0
 27-10-2025,Maharashtra,Thane,401105,0,0,1
 27-10-2025,Maharashtra,Thane,401303,1,0,0
@@ -521,7 +521,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 30-10-2025,Maharashtra,Thane,421204,16,4,0
 30-10-2025,Maharashtra,Thane,421302,66,13,1
 30-10-2025,Maharashtra,Thane,421402,3,1,0
-06-11-2025,Maharashtra,Thane,400601,8,1,0
+13-06-2025,Maharashtra,Thane,400601,4,1,1
 06-11-2025,Maharashtra,Thane,400604,1,1,0
 06-11-2025,Maharashtra,Thane,400606,3,0,0
 06-11-2025,Maharashtra,Thane,400612,9,4,0
@@ -708,7 +708,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 15-11-2025,Maharashtra,Thane,421401,8,2,0
 15-11-2025,Maharashtra,Thane,421506,2,0,0
 15-11-2025,Maharashtra,Thane,421605,4,2,0
-17-11-2025,Maharashtra,Thane,400601,7,1,0
+14-06-2025,Maharashtra,Thane,400601,3,6,0
 17-11-2025,Maharashtra,Thane,400607,4,0,0
 17-11-2025,Maharashtra,Thane,400705,2,2,0
 17-11-2025,Maharashtra,Thane,421301,14,3,1
@@ -727,7 +727,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 18-11-2025,Maharashtra,Thane,421506,2,0,0
 18-11-2025,Maharashtra,Thane,421601,5,0,0
 18-11-2025,Maharashtra,Thane,421605,9,2,0
-25-11-2025,Maharashtra,Thane,400601,13,2,0
+15-06-2025,Maharashtra,Thane,400601,0,2,0
 25-11-2025,Maharashtra,Thane,400602,1,1,0
 25-11-2025,Maharashtra,Thane,400607,7,3,0
 25-11-2025,Maharashtra,Thane,400608,4,0,0
@@ -826,7 +826,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 27-12-2025,Maharashtra,Thane,401303,1,0,0
 27-12-2025,Maharashtra,Thane,421201,7,2,0
 27-12-2025,Maharashtra,Thane,421505,1,0,0
-26-12-2025,Maharashtra,Thane,400601,11,0,0
+16-06-2025,Maharashtra,Thane,400601,4,3,0
 26-12-2025,Maharashtra,Thane,400612,9,2,1
 26-12-2025,Maharashtra,Thane,401305,2,0,0
 26-12-2025,Maharashtra,Thane,401603,0,1,0
@@ -915,7 +915,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 03-01-2026,Maharashtra,Thane,401602,0,1,0
 03-01-2026,Maharashtra,Thane,421002,0,1,0
 03-01-2026,Maharashtra,Thane,421503,0,3,1
-09-06-2025,Maharashtra,Thane,400601,6,2,0
+17-06-2025,Maharashtra,Thane,400601,3,4,0
 09-06-2025,Maharashtra,Thane,400605,7,2,0
 09-06-2025,Maharashtra,Thane,401105,1,5,0
 09-06-2025,Maharashtra,Thane,401201,1,2,0
@@ -991,7 +991,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 13-06-2025,Maharashtra,Thane,421202,1,3,0
 13-06-2025,Maharashtra,Thane,421203,1,2,0
 13-06-2025,Maharashtra,Thane,421311,1,1,0
-14-06-2025,Maharashtra,Thane,400601,3,6,0
+18-06-2025,Maharashtra,Thane,400601,2,6,0
 14-06-2025,Maharashtra,Thane,400602,2,0,0
 14-06-2025,Maharashtra,Thane,400607,7,3,0
 14-06-2025,Maharashtra,Thane,400709,10,2,0
@@ -1099,7 +1099,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 06-09-2025,Maharashtra,Thane,421202,3,2,0
 06-09-2025,Maharashtra,Thane,421302,12,7,0
 06-09-2025,Maharashtra,Thane,421601,1,1,0
-05-09-2025,Maharashtra,Thane,400601,2,0,0
+19-06-2025,Maharashtra,Thane,400601,4,1,0
 05-09-2025,Maharashtra,Thane,400615,3,1,0
 05-09-2025,Maharashtra,Thane,401201,1,0,0
 05-09-2025,Maharashtra,Thane,421004,2,0,0
@@ -1122,13 +1122,13 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 04-09-2025,Maharashtra,Thane,421202,4,3,0
 04-09-2025,Maharashtra,Thane,421303,0,1,0
 04-09-2025,Maharashtra,Thane,421401,7,1,0
-07-09-2025,Maharashtra,Thane,400601,3,1,0
+01-09-2025,Maharashtra,Thane,400601,3,1,1
 07-09-2025,Maharashtra,Thane,400602,1,0,0
 07-09-2025,Maharashtra,Thane,400606,0,2,0
 07-09-2025,Maharashtra,Thane,401107,3,3,0
 07-09-2025,Maharashtra,Thane,421103,1,0,0
 07-09-2025,Maharashtra,Thane,421312,1,0,0
-08-09-2025,Maharashtra,Thane,400601,5,2,0
+02-09-2025,Maharashtra,Thane,400601,2,1,0
 08-09-2025,Maharashtra,Thane,400607,3,1,0
 08-09-2025,Maharashtra,Thane,400610,1,0,0
 08-09-2025,Maharashtra,Thane,400706,6,4,0
@@ -1177,7 +1177,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 14-09-2025,Maharashtra,Thane,421308,0,1,0
 14-09-2025,Maharashtra,Thane,421501,2,0,0
 14-09-2025,Maharashtra,Thane,421605,3,2,0
-13-09-2025,Maharashtra,Thane,400601,7,2,0
+03-09-2025,Maharashtra,Thane,400601,6,2,0
 13-09-2025,Maharashtra,Thane,400614,5,1,0
 13-09-2025,Maharashtra,Thane,401106,2,0,0
 13-09-2025,Maharashtra,Thane,401202,1,0,0
@@ -1236,7 +1236,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 17-09-2025,Maharashtra,Thane,421402,3,0,0
 17-09-2025,Maharashtra,Thane,421501,6,5,0
 17-09-2025,Maharashtra,Thane,421605,4,5,0
-19-09-2025,Maharashtra,Thane,400601,3,2,0
+04-09-2025,Maharashtra,Thane,400601,7,1,0
 19-09-2025,Maharashtra,Thane,400604,9,1,0
 19-09-2025,Maharashtra,Thane,400612,23,9,0
 19-09-2025,Maharashtra,Thane,400703,3,1,0
@@ -1311,7 +1311,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 25-09-2025,Maharashtra,Thane,421401,1,3,0
 25-09-2025,Maharashtra,Thane,421402,1,0,0
 25-09-2025,Maharashtra,Thane,421403,3,0,0
-23-09-2025,Maharashtra,Thane,400601,3,2,0
+05-09-2025,Maharashtra,Thane,400601,2,0,0
 23-09-2025,Maharashtra,Thane,400614,2,0,0
 23-09-2025,Maharashtra,Thane,400701,3,1,0
 23-09-2025,Maharashtra,Thane,400708,4,1,0
@@ -1350,7 +1350,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 27-09-2025,Maharashtra,Thane,421004,3,0,0
 27-09-2025,Maharashtra,Thane,421301,6,1,0
 27-09-2025,Maharashtra,Thane,421308,2,0,0
-28-09-2025,Maharashtra,Thane,400601,1,0,0
+06-09-2025,Maharashtra,Thane,400601,8,0,0
 28-09-2025,Maharashtra,Thane,400705,1,0,0
 28-09-2025,Maharashtra,Thane,421302,1,0,0
 26-09-2025,Maharashtra,Thane,400703,1,0,0
@@ -1432,7 +1432,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 17-10-2025,Maharashtra,Thane,421305,13,3,0
 17-10-2025,Maharashtra,Thane,421311,3,2,0
 17-10-2025,Maharashtra,Thane,421403,5,3,0
-19-10-2025,Maharashtra,Thane,400601,7,1,0
+07-09-2025,Maharashtra,Thane,400601,3,1,0
 19-10-2025,Maharashtra,Thane,400605,7,1,0
 19-10-2025,Maharashtra,Thane,400606,9,2,0
 19-10-2025,Maharashtra,Thane,400608,2,1,0
@@ -1445,7 +1445,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 19-10-2025,Maharashtra,Thane,421303,1,0,0
 19-10-2025,Maharashtra,Thane,421311,3,0,0
 19-10-2025,Maharashtra,Thane,421401,4,0,0
-18-10-2025,Maharashtra,Thane,400601,7,0,0
+08-09-2025,Maharashtra,Thane,400601,5,2,0
 18-10-2025,Maharashtra,Thane,400603,1,0,0
 18-10-2025,Maharashtra,Thane,400612,17,7,0
 18-10-2025,Maharashtra,Thane,400614,3,0,0
@@ -1479,7 +1479,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 24-10-2025,Maharashtra,Thane,401503,1,0,0
 24-10-2025,Maharashtra,Thane,421102,1,1,0
 24-10-2025,Maharashtra,Thane,421308,2,1,0
-25-10-2025,Maharashtra,Thane,400601,2,1,0
+09-09-2025,Maharashtra,Thane,400601,8,3,1
 25-10-2025,Maharashtra,Thane,400602,1,0,0
 25-10-2025,Maharashtra,Thane,400606,2,1,0
 25-10-2025,Maharashtra,Thane,400610,1,1,0
@@ -1559,7 +1559,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 06-11-2025,Maharashtra,Thane,421302,12,4,1
 06-11-2025,Maharashtra,Thane,421305,1,3,0
 06-11-2025,Maharashtra,Thane,421312,1,0,0
-08-11-2025,Maharashtra,Thane,400601,5,0,0
+10-09-2025,Maharashtra,Thane,400601,7,3,0
 08-11-2025,Maharashtra,Thane,400602,2,0,0
 08-11-2025,Maharashtra,Thane,400603,1,0,0
 08-11-2025,Maharashtra,Thane,400607,0,3,0
@@ -1607,7 +1607,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 12-11-2025,Maharashtra,Thane,421306,6,5,0
 12-11-2025,Maharashtra,Thane,421308,0,1,0
 12-11-2025,Maharashtra,Thane,421503,3,4,0
-16-11-2025,Maharashtra,Thane,400601,13,1,0
+11-09-2025,Maharashtra,Thane,400601,3,5,0
 16-11-2025,Maharashtra,Thane,400604,14,5,0
 16-11-2025,Maharashtra,Thane,400608,2,0,0
 16-11-2025,Maharashtra,Thane,400703,3,1,0
@@ -1644,7 +1644,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 25-11-2025,Maharashtra,Thane,421308,2,2,0
 25-11-2025,Maharashtra,Thane,421402,3,0,0
 25-11-2025,Maharashtra,Thane,421501,6,3,0
-15-12-2025,Maharashtra,Thane,400601,12,0,2
+12-09-2025,Maharashtra,Thane,400601,7,2,0
 15-12-2025,Maharashtra,Thane,400603,2,0,0
 15-12-2025,Maharashtra,Thane,401101,12,4,0
 15-12-2025,Maharashtra,Thane,401104,1,0,0
@@ -1655,7 +1655,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 15-12-2025,Maharashtra,Thane,421201,25,8,0
 15-12-2025,Maharashtra,Thane,421308,12,1,0
 15-12-2025,Maharashtra,Thane,421506,2,0,0
-30-10-2025,Maharashtra,Thane,400601,14,2,0
+13-09-2025,Maharashtra,Thane,400601,7,2,0
 30-10-2025,Maharashtra,Thane,400602,3,0,0
 30-10-2025,Maharashtra,Thane,400610,5,1,0
 30-10-2025,Maharashtra,Thane,400701,9,0,1
@@ -1670,7 +1670,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 30-10-2025,Maharashtra,Thane,421403,2,1,0
 30-10-2025,Maharashtra,Thane,421601,16,5,0
 30-10-2025,Maharashtra,Thane,421602,2,2,0
-31-10-2025,Maharashtra,Thane,400601,6,0,0
+14-09-2025,Maharashtra,Thane,400601,4,1,0
 31-10-2025,Maharashtra,Thane,400604,22,0,0
 31-10-2025,Maharashtra,Thane,400607,17,1,1
 31-10-2025,Maharashtra,Thane,400706,4,0,0
@@ -1732,7 +1732,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 11-11-2025,Maharashtra,Thane,401603,1,0,0
 11-11-2025,Maharashtra,Thane,421101,2,0,0
 11-11-2025,Maharashtra,Thane,421501,2,3,1
-14-11-2025,Maharashtra,Thane,400601,7,0,0
+15-09-2025,Maharashtra,Thane,400601,1,4,0
 14-11-2025,Maharashtra,Thane,400614,2,0,0
 14-11-2025,Maharashtra,Thane,400705,1,0,0
 14-11-2025,Maharashtra,Thane,401303,2,3,0
@@ -1743,7 +1743,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 14-11-2025,Maharashtra,Thane,421403,12,0,0
 14-11-2025,Maharashtra,Thane,421501,8,0,0
 14-11-2025,Maharashtra,Thane,421502,1,0,0
-15-11-2025,Maharashtra,Thane,400601,22,2,0
+16-09-2025,Maharashtra,Thane,400601,1,2,0
 15-11-2025,Maharashtra,Thane,400603,1,0,0
 15-11-2025,Maharashtra,Thane,400604,18,3,0
 15-11-2025,Maharashtra,Thane,400612,42,18,0
@@ -1808,7 +1808,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 22-12-2025,Maharashtra,Thane,421601,20,0,0
 22-12-2025,Maharashtra,Thane,421602,9,0,0
 22-12-2025,Maharashtra,Thane,421604,3,0,0
-23-12-2025,Maharashtra,Thane,400601,6,0,0
+17-09-2025,Maharashtra,Thane,400601,7,1,0
 23-12-2025,Maharashtra,Thane,400605,13,0,0
 23-12-2025,Maharashtra,Thane,400615,6,0,0
 23-12-2025,Maharashtra,Thane,401305,5,0,0
@@ -1828,7 +1828,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 24-12-2025,Maharashtra,Thane,421005,1,0,0
 24-12-2025,Maharashtra,Thane,421101,0,1,0
 24-12-2025,Maharashtra,Thane,421203,0,3,0
-25-12-2025,Maharashtra,Thane,400601,4,1,0
+18-09-2025,Maharashtra,Thane,400601,3,0,0
 25-12-2025,Maharashtra,Thane,400606,1,0,12
 25-12-2025,Maharashtra,Thane,400607,0,3,13
 25-12-2025,Maharashtra,Thane,400612,9,1,0
@@ -1851,7 +1851,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 26-12-2025,Maharashtra,Thane,421302,32,4,1
 26-12-2025,Maharashtra,Thane,421601,6,0,0
 26-12-2025,Maharashtra,Thane,421602,0,1,0
-27-12-2025,Maharashtra,Thane,400601,5,3,0
+19-09-2025,Maharashtra,Thane,400601,3,2,0
 27-12-2025,Maharashtra,Thane,400607,3,1,0
 27-12-2025,Maharashtra,Thane,400703,1,1,0
 27-12-2025,Maharashtra,Thane,400705,3,0,0
@@ -1865,7 +1865,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 29-12-2025,Maharashtra,Thane,421204,15,1,0
 29-12-2025,Maharashtra,Thane,421301,22,5,1
 29-12-2025,Maharashtra,Thane,421312,1,0,0
-28-12-2025,Maharashtra,Thane,400601,1,2,0
+20-09-2025,Maharashtra,Thane,400601,3,1,0
 28-12-2025,Maharashtra,Thane,400605,5,0,0
 28-12-2025,Maharashtra,Thane,401209,3,2,0
 28-12-2025,Maharashtra,Thane,401602,0,1,0
@@ -1934,7 +1934,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 10-06-2025,Maharashtra,Thane,421311,0,0,1
 10-06-2025,Maharashtra,Thane,421312,0,3,0
 10-06-2025,Maharashtra,Thane,421403,2,4,0
-11-06-2025,Maharashtra,Thane,400601,10,4,0
+21-09-2025,Maharashtra,Thane,400601,1,1,0
 11-06-2025,Maharashtra,Thane,400607,3,0,0
 11-06-2025,Maharashtra,Thane,400708,4,8,0
 11-06-2025,Maharashtra,Thane,401106,2,0,0
@@ -1986,7 +1986,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 15-06-2025,Maharashtra,Thane,421302,5,7,0
 15-06-2025,Maharashtra,Thane,421503,11,7,0
 15-06-2025,Maharashtra,Thane,421505,0,1,0
-16-06-2025,Maharashtra,Thane,400601,4,3,0
+22-09-2025,Maharashtra,Thane,400601,1,2,0
 16-06-2025,Maharashtra,Thane,400602,1,0,0
 16-06-2025,Maharashtra,Thane,400604,5,8,1
 16-06-2025,Maharashtra,Thane,400610,1,0,0
@@ -2080,7 +2080,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 07-09-2025,Maharashtra,Thane,401305,1,0,0
 07-09-2025,Maharashtra,Thane,401501,1,0,0
 07-09-2025,Maharashtra,Thane,421401,0,1,0
-06-09-2025,Maharashtra,Thane,400601,8,0,0
+23-09-2025,Maharashtra,Thane,400601,3,2,0
 06-09-2025,Maharashtra,Thane,400606,2,1,0
 06-09-2025,Maharashtra,Thane,400701,2,1,0
 06-09-2025,Maharashtra,Thane,400703,1,0,0
@@ -2221,7 +2221,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 16-09-2025,Maharashtra,Thane,421308,3,4,0
 16-09-2025,Maharashtra,Thane,421311,0,2,0
 16-09-2025,Maharashtra,Thane,421605,5,1,0
-17-09-2025,Maharashtra,Thane,400601,7,1,0
+24-09-2025,Maharashtra,Thane,400601,4,3,0
 17-09-2025,Maharashtra,Thane,400614,0,1,0
 17-09-2025,Maharashtra,Thane,400615,4,0,0
 17-09-2025,Maharashtra,Thane,400708,7,5,0
@@ -2332,7 +2332,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 26-09-2025,Maharashtra,Thane,421305,0,2,0
 26-09-2025,Maharashtra,Thane,421503,16,5,0
 26-09-2025,Maharashtra,Thane,421601,2,1,0
-24-09-2025,Maharashtra,Thane,400601,4,3,0
+25-09-2025,Maharashtra,Thane,400601,3,2,0
 24-09-2025,Maharashtra,Thane,400604,4,3,0
 24-09-2025,Maharashtra,Thane,400615,0,3,0
 24-09-2025,Maharashtra,Thane,400701,2,3,0
@@ -2442,7 +2442,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 21-10-2025,Maharashtra,Thane,400708,1,0,0
 21-10-2025,Maharashtra,Thane,421201,1,1,0
 21-10-2025,Maharashtra,Thane,421301,2,1,0
-24-10-2025,Maharashtra,Thane,400601,1,1,0
+26-09-2025,Maharashtra,Thane,400601,2,2,0
 24-10-2025,Maharashtra,Thane,400602,0,1,0
 24-10-2025,Maharashtra,Thane,400604,3,2,0
 24-10-2025,Maharashtra,Thane,401101,2,3,0
@@ -2460,7 +2460,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 25-10-2025,Maharashtra,Thane,421204,1,1,0
 25-10-2025,Maharashtra,Thane,421306,6,7,0
 25-10-2025,Maharashtra,Thane,421501,1,0,0
-28-10-2025,Maharashtra,Thane,400601,2,1,0
+27-09-2025,Maharashtra,Thane,400601,3,1,0
 28-10-2025,Maharashtra,Thane,400604,2,1,0
 28-10-2025,Maharashtra,Thane,400612,4,4,1
 28-10-2025,Maharashtra,Thane,401208,3,0,0
@@ -2551,7 +2551,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 13-11-2025,Maharashtra,Thane,400614,3,0,0
 13-11-2025,Maharashtra,Thane,421301,7,4,1
 13-11-2025,Maharashtra,Thane,421603,1,0,0
-12-11-2025,Maharashtra,Thane,400601,3,0,1
+28-09-2025,Maharashtra,Thane,400601,1,0,0
 12-11-2025,Maharashtra,Thane,400604,5,2,0
 12-11-2025,Maharashtra,Thane,401101,1,1,0
 12-11-2025,Maharashtra,Thane,421005,3,0,0
@@ -2624,7 +2624,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 05-11-2025,Maharashtra,Thane,421308,2,1,0
 05-11-2025,Maharashtra,Thane,421403,5,0,0
 05-11-2025,Maharashtra,Thane,421506,2,1,0
-03-11-2025,Maharashtra,Thane,400601,6,1,0
+29-09-2025,Maharashtra,Thane,400601,0,1,0
 03-11-2025,Maharashtra,Thane,400605,3,0,0
 03-11-2025,Maharashtra,Thane,400615,1,0,0
 03-11-2025,Maharashtra,Thane,401107,6,2,0
@@ -2727,7 +2727,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 18-11-2025,Maharashtra,Thane,421204,9,3,0
 18-11-2025,Maharashtra,Thane,421311,6,1,0
 18-11-2025,Maharashtra,Thane,421503,8,5,0
-19-11-2025,Maharashtra,Thane,400601,13,2,0
+13-10-2025,Maharashtra,Thane,400601,7,1,0
 19-11-2025,Maharashtra,Thane,400602,3,0,0
 19-11-2025,Maharashtra,Thane,400705,6,1,0
 19-11-2025,Maharashtra,Thane,400709,14,0,0
@@ -2756,7 +2756,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 21-12-2025,Maharashtra,Thane,421203,2,0,0
 21-12-2025,Maharashtra,Thane,421305,1,0,0
 21-12-2025,Maharashtra,Thane,421308,2,0,0
-22-12-2025,Maharashtra,Thane,400601,9,0,0
+15-10-2025,Maharashtra,Thane,400601,1,4,0
 22-12-2025,Maharashtra,Thane,400602,4,0,0
 22-12-2025,Maharashtra,Thane,401207,1,0,0
 22-12-2025,Maharashtra,Thane,401208,5,0,0
@@ -2908,7 +2908,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 09-06-2025,Maharashtra,Thane,421306,11,12,0
 09-06-2025,Maharashtra,Thane,421601,6,2,0
 09-06-2025,Maharashtra,Thane,421603,0,1,0
-10-06-2025,Maharashtra,Thane,400601,4,1,0
+16-10-2025,Maharashtra,Thane,400601,2,0,1
 10-06-2025,Maharashtra,Thane,400605,1,7,0
 10-06-2025,Maharashtra,Thane,400701,7,6,0
 10-06-2025,Maharashtra,Thane,400703,3,7,0
@@ -3032,7 +3032,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 17-06-2025,Maharashtra,Thane,421605,2,1,0
 01-04-2025,Maharashtra,Thane,421302,545,186,17
 01-04-2025,Maharashtra,Thane,421503,226,62,23
-01-05-2025,Maharashtra,Thane,400601,80,30,14
+17-10-2025,Maharashtra,Thane,400601,15,4,0
 01-05-2025,Maharashtra,Thane,421302,547,265,20
 01-06-2025,Maharashtra,Thane,400705,53,27,11
 01-06-2025,Maharashtra,Thane,400706,84,34,30
@@ -3061,7 +3061,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 03-09-2025,Maharashtra,Thane,421403,2,0,0
 03-09-2025,Maharashtra,Thane,421505,0,1,0
 03-09-2025,Maharashtra,Thane,421602,0,1,0
-02-09-2025,Maharashtra,Thane,400601,2,1,0
+18-10-2025,Maharashtra,Thane,400601,7,0,0
 02-09-2025,Maharashtra,Thane,400604,3,0,0
 02-09-2025,Maharashtra,Thane,400607,3,1,0
 02-09-2025,Maharashtra,Thane,421004,7,1,0
@@ -3119,7 +3119,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 09-09-2025,Maharashtra,Thane,421004,4,1,0
 09-09-2025,Maharashtra,Thane,421201,12,9,0
 09-09-2025,Maharashtra,Thane,421204,3,4,0
-10-09-2025,Maharashtra,Thane,400601,7,3,0
+19-10-2025,Maharashtra,Thane,400601,7,1,0
 10-09-2025,Maharashtra,Thane,400603,1,0,0
 10-09-2025,Maharashtra,Thane,400604,3,1,0
 10-09-2025,Maharashtra,Thane,400605,5,3,0
@@ -3159,7 +3159,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 14-09-2025,Maharashtra,Thane,421102,0,2,0
 14-09-2025,Maharashtra,Thane,421302,11,7,0
 14-09-2025,Maharashtra,Thane,421503,2,0,0
-15-09-2025,Maharashtra,Thane,400601,1,4,0
+20-10-2025,Maharashtra,Thane,400601,1,0,0
 15-09-2025,Maharashtra,Thane,400705,4,0,0
 15-09-2025,Maharashtra,Thane,400706,0,1,0
 15-09-2025,Maharashtra,Thane,400709,1,0,0
@@ -3184,7 +3184,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 13-09-2025,Maharashtra,Thane,421305,6,4,0
 13-09-2025,Maharashtra,Thane,421311,2,2,0
 13-09-2025,Maharashtra,Thane,421603,1,1,0
-12-09-2025,Maharashtra,Thane,400601,7,2,0
+21-10-2025,Maharashtra,Thane,400601,3,0,0
 12-09-2025,Maharashtra,Thane,400615,3,1,0
 12-09-2025,Maharashtra,Thane,400709,3,4,0
 12-09-2025,Maharashtra,Thane,401101,2,2,0
@@ -3254,7 +3254,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 18-09-2025,Maharashtra,Thane,421303,2,2,0
 18-09-2025,Maharashtra,Thane,421308,3,0,0
 18-09-2025,Maharashtra,Thane,421501,10,4,0
-20-09-2025,Maharashtra,Thane,400601,3,1,0
+24-10-2025,Maharashtra,Thane,400601,1,1,0
 20-09-2025,Maharashtra,Thane,401105,7,3,0
 20-09-2025,Maharashtra,Thane,401208,1,1,0
 20-09-2025,Maharashtra,Thane,401304,1,0,0
@@ -3291,7 +3291,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 22-09-2025,Maharashtra,Thane,421203,2,0,0
 22-09-2025,Maharashtra,Thane,421502,1,0,0
 22-09-2025,Maharashtra,Thane,421601,3,3,0
-21-09-2025,Maharashtra,Thane,400601,1,1,0
+25-10-2025,Maharashtra,Thane,400601,2,1,0
 21-09-2025,Maharashtra,Thane,400610,1,0,0
 21-09-2025,Maharashtra,Thane,400703,2,0,0
 21-09-2025,Maharashtra,Thane,400708,1,0,0
@@ -3326,7 +3326,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 24-09-2025,Maharashtra,Thane,421303,3,6,0
 24-09-2025,Maharashtra,Thane,421503,11,7,0
 24-09-2025,Maharashtra,Thane,421605,4,3,0
-29-09-2025,Maharashtra,Thane,400601,0,1,0
+26-10-2025,Maharashtra,Thane,400601,3,0,0
 29-09-2025,Maharashtra,Thane,400612,0,2,0
 29-09-2025,Maharashtra,Thane,401209,0,1,0
 29-09-2025,Maharashtra,Thane,401403,1,0,0
@@ -3334,7 +3334,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 29-09-2025,Maharashtra,Thane,421311,1,0,0
 28-09-2025,Maharashtra,Thane,400607,3,0,0
 28-09-2025,Maharashtra,Thane,421204,0,1,0
-27-09-2025,Maharashtra,Thane,400601,3,1,0
+27-10-2025,Maharashtra,Thane,400601,3,0,0
 27-09-2025,Maharashtra,Thane,400604,3,1,0
 27-09-2025,Maharashtra,Thane,400605,0,1,0
 27-09-2025,Maharashtra,Thane,401105,3,1,0
@@ -3376,7 +3376,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 16-10-2025,Maharashtra,Thane,421101,2,0,0
 16-10-2025,Maharashtra,Thane,421401,3,1,0
 16-10-2025,Maharashtra,Thane,421605,2,1,0
-15-10-2025,Maharashtra,Thane,400601,1,4,0
+28-10-2025,Maharashtra,Thane,400601,2,1,0
 15-10-2025,Maharashtra,Thane,400603,1,0,0
 15-10-2025,Maharashtra,Thane,401101,2,2,0
 15-10-2025,Maharashtra,Thane,401201,1,0,0
@@ -3424,7 +3424,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 19-10-2025,Maharashtra,Thane,421306,17,4,0
 19-10-2025,Maharashtra,Thane,421501,10,1,0
 19-10-2025,Maharashtra,Thane,421603,1,0,0
-20-10-2025,Maharashtra,Thane,400601,1,0,0
+29-10-2025,Maharashtra,Thane,400601,2,0,0
 20-10-2025,Maharashtra,Thane,400605,0,1,0
 20-10-2025,Maharashtra,Thane,400612,4,4,0
 20-10-2025,Maharashtra,Thane,400701,4,3,0
@@ -3480,7 +3480,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 27-10-2025,Maharashtra,Thane,421202,1,0,0
 27-10-2025,Maharashtra,Thane,421308,1,0,0
 27-10-2025,Maharashtra,Thane,421502,1,0,0
-29-10-2025,Maharashtra,Thane,400601,2,0,0
+30-10-2025,Maharashtra,Thane,400601,14,2,0
 29-10-2025,Maharashtra,Thane,400612,8,3,1
 29-10-2025,Maharashtra,Thane,400703,4,0,0
 29-10-2025,Maharashtra,Thane,401105,5,3,0
@@ -3514,7 +3514,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 31-10-2025,Maharashtra,Thane,421306,15,13,1
 31-10-2025,Maharashtra,Thane,421311,1,5,0
 31-10-2025,Maharashtra,Thane,421601,5,0,0
-02-11-2025,Maharashtra,Thane,400601,12,2,0
+31-10-2025,Maharashtra,Thane,400601,6,0,0
 02-11-2025,Maharashtra,Thane,400701,14,7,0
 02-11-2025,Maharashtra,Thane,400709,19,3,0
 02-11-2025,Maharashtra,Thane,401106,7,0,0
@@ -3645,7 +3645,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 06-11-2025,Maharashtra,Thane,421102,2,0,0
 06-11-2025,Maharashtra,Thane,421306,2,3,0
 06-11-2025,Maharashtra,Thane,421602,1,1,0
-07-11-2025,Maharashtra,Thane,400601,8,2,0
+01-11-2025,Maharashtra,Thane,400601,2,0,0
 07-11-2025,Maharashtra,Thane,400615,4,1,0
 07-11-2025,Maharashtra,Thane,400701,9,0,0
 07-11-2025,Maharashtra,Thane,400703,3,0,0
@@ -3674,7 +3674,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 08-11-2025,Maharashtra,Thane,421201,2,1,0
 08-11-2025,Maharashtra,Thane,421401,3,1,0
 08-11-2025,Maharashtra,Thane,421503,5,4,0
-09-11-2025,Maharashtra,Thane,400601,9,0,0
+02-11-2025,Maharashtra,Thane,400601,12,2,0
 09-11-2025,Maharashtra,Thane,400603,1,0,0
 09-11-2025,Maharashtra,Thane,400606,8,3,0
 09-11-2025,Maharashtra,Thane,400607,5,2,0
@@ -3695,7 +3695,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 09-11-2025,Maharashtra,Thane,421401,1,0,0
 09-11-2025,Maharashtra,Thane,421402,2,0,0
 09-11-2025,Maharashtra,Thane,421603,1,0,0
-10-11-2025,Maharashtra,Thane,400601,12,0,0
+03-11-2025,Maharashtra,Thane,400601,6,1,0
 10-11-2025,Maharashtra,Thane,400602,2,0,0
 10-11-2025,Maharashtra,Thane,400614,1,0,0
 10-11-2025,Maharashtra,Thane,400710,1,0,0
@@ -3777,7 +3777,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 15-12-2025,Maharashtra,Thane,421403,9,0,0
 15-12-2025,Maharashtra,Thane,421502,1,0,0
 15-12-2025,Maharashtra,Thane,421605,6,3,0
-21-12-2025,Maharashtra,Thane,400601,1,0,0
+05-11-2025,Maharashtra,Thane,400601,9,0,0
 21-12-2025,Maharashtra,Thane,400603,1,0,0
 21-12-2025,Maharashtra,Thane,400615,1,0,0
 21-12-2025,Maharashtra,Thane,400705,3,0,0
@@ -3853,7 +3853,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 27-12-2025,Maharashtra,Thane,421305,0,2,0
 27-12-2025,Maharashtra,Thane,421501,3,1,0
 27-12-2025,Maharashtra,Thane,421506,0,1,0
-29-12-2025,Maharashtra,Thane,400601,6,3,0
+06-11-2025,Maharashtra,Thane,400601,8,1,0
 29-12-2025,Maharashtra,Thane,400604,4,0,0
 29-12-2025,Maharashtra,Thane,400605,13,1,0
 29-12-2025,Maharashtra,Thane,400608,1,0,0
@@ -3877,7 +3877,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 28-12-2025,Maharashtra,Thane,421202,2,0,0
 28-12-2025,Maharashtra,Thane,421402,0,1,0
 28-12-2025,Maharashtra,Thane,421601,3,0,0
-31-12-2025,Maharashtra,Thane,400601,6,2,0
+07-11-2025,Maharashtra,Thane,400601,8,2,0
 31-12-2025,Maharashtra,Thane,400605,8,4,0
 31-12-2025,Maharashtra,Thane,400701,5,3,0
 31-12-2025,Maharashtra,Thane,400705,8,4,0
@@ -3890,7 +3890,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 31-12-2025,Maharashtra,Thane,421308,1,3,0
 31-12-2025,Maharashtra,Thane,421402,2,1,0
 31-12-2025,Maharashtra,Thane,421603,1,0,0
-02-01-2026,Maharashtra,Thane,400601,11,3,0
+08-11-2025,Maharashtra,Thane,400601,5,0,0
 02-01-2026,Maharashtra,Thane,400607,7,2,0
 02-01-2026,Maharashtra,Thane,400610,1,0,0
 02-01-2026,Maharashtra,Thane,400612,41,17,0
@@ -3918,7 +3918,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 01-01-2026,Maharashtra,Thane,421203,5,1,0
 01-01-2026,Maharashtra,Thane,421306,19,18,0
 01-01-2026,Maharashtra,Thane,421602,11,10,0
-03-01-2026,Maharashtra,Thane,400601,0,0,2
+09-11-2025,Maharashtra,Thane,400601,9,0,0
 03-01-2026,Maharashtra,Thane,401107,0,3,0
 03-01-2026,Maharashtra,Thane,421305,1,1,0
 03-01-2026,Maharashtra,Thane,421402,0,1,0
@@ -3979,7 +3979,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 13-06-2025,Maharashtra,Thane,421308,0,2,0
 13-06-2025,Maharashtra,Thane,421503,4,2,2
 13-06-2025,Maharashtra,Thane,421601,4,7,1
-12-06-2025,Maharashtra,Thane,400601,5,1,0
+10-11-2025,Maharashtra,Thane,400601,12,0,0
 12-06-2025,Maharashtra,Thane,400608,2,0,1
 12-06-2025,Maharashtra,Thane,400614,2,0,0
 12-06-2025,Maharashtra,Thane,400701,1,5,0
@@ -4003,7 +4003,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 14-06-2025,Maharashtra,Thane,421103,3,1,0
 14-06-2025,Maharashtra,Thane,421202,2,9,0
 14-06-2025,Maharashtra,Thane,421501,10,6,8
-15-06-2025,Maharashtra,Thane,400601,0,2,0
+11-11-2025,Maharashtra,Thane,400601,7,0,0
 15-06-2025,Maharashtra,Thane,400608,1,0,0
 15-06-2025,Maharashtra,Thane,401209,0,1,0
 15-06-2025,Maharashtra,Thane,421003,0,1,0
@@ -4065,7 +4065,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 19-06-2025,Maharashtra,Thane,421401,6,2,0
 19-06-2025,Maharashtra,Thane,421601,4,4,0
 19-06-2025,Maharashtra,Thane,421605,0,2,0
-01-09-2025,Maharashtra,Thane,400601,3,1,1
+12-11-2025,Maharashtra,Thane,400601,3,0,1
 01-09-2025,Maharashtra,Thane,400614,4,0,0
 01-09-2025,Maharashtra,Thane,400703,1,0,0
 01-09-2025,Maharashtra,Thane,401201,1,0,0
@@ -4091,7 +4091,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 02-09-2025,Maharashtra,Thane,421308,3,0,0
 02-09-2025,Maharashtra,Thane,421501,2,0,0
 02-09-2025,Maharashtra,Thane,421602,1,0,0
-03-09-2025,Maharashtra,Thane,400601,6,2,0
+13-11-2025,Maharashtra,Thane,400601,4,1,0
 03-09-2025,Maharashtra,Thane,400605,5,2,0
 03-09-2025,Maharashtra,Thane,400701,4,1,0
 03-09-2025,Maharashtra,Thane,401101,2,3,0
@@ -4124,7 +4124,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 05-09-2025,Maharashtra,Thane,421002,2,0,0
 05-09-2025,Maharashtra,Thane,421203,0,2,1
 05-09-2025,Maharashtra,Thane,421505,1,0,0
-04-09-2025,Maharashtra,Thane,400601,7,1,0
+14-11-2025,Maharashtra,Thane,400601,7,0,0
 04-09-2025,Maharashtra,Thane,400607,5,1,0
 04-09-2025,Maharashtra,Thane,400614,2,1,0
 04-09-2025,Maharashtra,Thane,421002,19,2,0
@@ -4163,7 +4163,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 10-09-2025,Maharashtra,Thane,421005,2,1,0
 10-09-2025,Maharashtra,Thane,421204,5,2,0
 10-09-2025,Maharashtra,Thane,421302,48,21,1
-11-09-2025,Maharashtra,Thane,400601,3,5,0
+15-11-2025,Maharashtra,Thane,400601,22,2,0
 11-09-2025,Maharashtra,Thane,400605,7,5,0
 11-09-2025,Maharashtra,Thane,400614,0,1,0
 11-09-2025,Maharashtra,Thane,400709,3,3,0
@@ -4173,7 +4173,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 11-09-2025,Maharashtra,Thane,421601,14,6,1
 11-09-2025,Maharashtra,Thane,421602,4,2,0
 11-09-2025,Maharashtra,Thane,421603,1,0,0
-14-09-2025,Maharashtra,Thane,400601,4,1,0
+16-11-2025,Maharashtra,Thane,400601,13,1,0
 14-09-2025,Maharashtra,Thane,400602,0,1,0
 14-09-2025,Maharashtra,Thane,400604,2,4,0
 14-09-2025,Maharashtra,Thane,400605,2,1,0
@@ -4318,7 +4318,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 21-09-2025,Maharashtra,Thane,400701,1,0,0
 21-09-2025,Maharashtra,Thane,421102,2,0,0
 21-09-2025,Maharashtra,Thane,421311,2,2,0
-25-09-2025,Maharashtra,Thane,400601,3,2,0
+17-11-2025,Maharashtra,Thane,400601,7,1,0
 25-09-2025,Maharashtra,Thane,400615,7,0,0
 25-09-2025,Maharashtra,Thane,400706,6,2,0
 25-09-2025,Maharashtra,Thane,401201,1,0,0
@@ -4330,7 +4330,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 25-09-2025,Maharashtra,Thane,421305,4,1,0
 25-09-2025,Maharashtra,Thane,421503,10,2,0
 25-09-2025,Maharashtra,Thane,421602,1,3,0
-26-09-2025,Maharashtra,Thane,400601,2,2,0
+18-11-2025,Maharashtra,Thane,400601,10,2,0
 26-09-2025,Maharashtra,Thane,400606,1,0,0
 26-09-2025,Maharashtra,Thane,400608,1,0,0
 26-09-2025,Maharashtra,Thane,401103,2,1,0
@@ -4361,7 +4361,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 27-09-2025,Maharashtra,Thane,421403,1,0,0
 27-09-2025,Maharashtra,Thane,421501,1,1,0
 27-09-2025,Maharashtra,Thane,421503,3,0,0
-26-10-2025,Maharashtra,Thane,400601,3,0,0
+19-11-2025,Maharashtra,Thane,400601,13,2,0
 26-10-2025,Maharashtra,Thane,400604,2,0,0
 26-10-2025,Maharashtra,Thane,401107,2,3,0
 26-10-2025,Maharashtra,Thane,401305,2,1,0
@@ -4370,7 +4370,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 26-10-2025,Maharashtra,Thane,421302,13,4,1
 26-10-2025,Maharashtra,Thane,421305,5,2,0
 26-10-2025,Maharashtra,Thane,421402,0,1,0
-13-10-2025,Maharashtra,Thane,400601,7,1,0
+25-11-2025,Maharashtra,Thane,400601,13,2,0
 13-10-2025,Maharashtra,Thane,400604,10,0,0
 13-10-2025,Maharashtra,Thane,400605,12,3,0
 13-10-2025,Maharashtra,Thane,400608,7,0,0
@@ -4383,7 +4383,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 13-10-2025,Maharashtra,Thane,421102,4,1,1
 13-10-2025,Maharashtra,Thane,421308,2,1,0
 13-10-2025,Maharashtra,Thane,421602,2,0,0
-16-10-2025,Maharashtra,Thane,400601,2,0,1
+15-12-2025,Maharashtra,Thane,400601,12,0,2
 16-10-2025,Maharashtra,Thane,400604,4,3,0
 16-10-2025,Maharashtra,Thane,400612,6,6,3
 16-10-2025,Maharashtra,Thane,400615,1,2,0
@@ -4426,7 +4426,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 18-10-2025,Maharashtra,Thane,421203,1,1,0
 18-10-2025,Maharashtra,Thane,421301,18,3,0
 18-10-2025,Maharashtra,Thane,421401,4,1,0
-17-10-2025,Maharashtra,Thane,400601,15,4,0
+21-12-2025,Maharashtra,Thane,400601,1,0,0
 17-10-2025,Maharashtra,Thane,400606,12,2,0
 17-10-2025,Maharashtra,Thane,400703,12,4,0
 17-10-2025,Maharashtra,Thane,401102,2,0,0
@@ -4469,7 +4469,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 19-10-2025,Maharashtra,Thane,421503,6,4,0
 19-10-2025,Maharashtra,Thane,421505,3,1,0
 19-10-2025,Maharashtra,Thane,421605,7,1,0
-21-10-2025,Maharashtra,Thane,400601,3,0,0
+22-12-2025,Maharashtra,Thane,400601,9,0,0
 21-10-2025,Maharashtra,Thane,400709,1,0,0
 21-10-2025,Maharashtra,Thane,401106,2,0,0
 21-10-2025,Maharashtra,Thane,401107,0,2,1
@@ -4563,7 +4563,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 02-11-2025,Maharashtra,Thane,421202,25,3,0
 02-11-2025,Maharashtra,Thane,421505,6,1,0
 02-11-2025,Maharashtra,Thane,421601,12,0,0
-01-11-2025,Maharashtra,Thane,400601,2,0,0
+23-12-2025,Maharashtra,Thane,400601,6,0,0
 01-11-2025,Maharashtra,Thane,400703,3,0,0
 01-11-2025,Maharashtra,Thane,400706,2,0,0
 01-11-2025,Maharashtra,Thane,401107,5,2,0
@@ -4608,7 +4608,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 06-11-2025,Maharashtra,Thane,421101,1,0,0
 06-11-2025,Maharashtra,Thane,421403,2,1,0
 06-11-2025,Maharashtra,Thane,421605,4,3,0
-05-11-2025,Maharashtra,Thane,400601,9,0,0
+24-12-2025,Maharashtra,Thane,400601,4,0,0
 05-11-2025,Maharashtra,Thane,400602,1,0,0
 05-11-2025,Maharashtra,Thane,400604,8,1,0
 05-11-2025,Maharashtra,Thane,400605,9,3,0
@@ -4654,12 +4654,12 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 12-11-2025,Maharashtra,Thane,401305,0,2,0
 12-11-2025,Maharashtra,Thane,401603,2,0,0
 12-11-2025,Maharashtra,Thane,401604,0,2,0
-11-11-2025,Maharashtra,Thane,400601,7,0,0
+25-12-2025,Maharashtra,Thane,400601,4,1,0
 11-11-2025,Maharashtra,Thane,400709,4,0,0
 11-11-2025,Maharashtra,Thane,401103,1,0,0
 11-11-2025,Maharashtra,Thane,421402,0,1,0
 11-11-2025,Maharashtra,Thane,421503,7,4,0
-13-11-2025,Maharashtra,Thane,400601,4,1,0
+26-12-2025,Maharashtra,Thane,400601,11,0,0
 13-11-2025,Maharashtra,Thane,400604,4,0,0
 13-11-2025,Maharashtra,Thane,400606,0,1,0
 13-11-2025,Maharashtra,Thane,400607,1,1,0
@@ -4725,7 +4725,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 17-11-2025,Maharashtra,Thane,421004,1,1,0
 17-11-2025,Maharashtra,Thane,421202,3,0,0
 17-11-2025,Maharashtra,Thane,421204,3,0,1
-18-11-2025,Maharashtra,Thane,400601,10,2,0
+27-12-2025,Maharashtra,Thane,400601,5,3,0
 18-11-2025,Maharashtra,Thane,400606,13,0,0
 18-11-2025,Maharashtra,Thane,400607,8,2,0
 18-11-2025,Maharashtra,Thane,400614,2,0,0
@@ -4815,7 +4815,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 22-12-2025,Maharashtra,Thane,401402,1,0,0
 22-12-2025,Maharashtra,Thane,401605,1,0,0
 22-12-2025,Maharashtra,Thane,421202,20,0,0
-24-12-2025,Maharashtra,Thane,400601,4,0,0
+28-12-2025,Maharashtra,Thane,400601,1,2,0
 24-12-2025,Maharashtra,Thane,400612,14,8,3
 24-12-2025,Maharashtra,Thane,400615,4,0,0
 24-12-2025,Maharashtra,Thane,400706,3,3,1
@@ -4902,7 +4902,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 31-12-2025,Maharashtra,Thane,421303,2,0,0
 31-12-2025,Maharashtra,Thane,421305,4,8,0
 31-12-2025,Maharashtra,Thane,421306,12,14,0
-01-01-2026,Maharashtra,Thane,400601,14,3,0
+29-12-2025,Maharashtra,Thane,400601,6,3,0
 01-01-2026,Maharashtra,Thane,400606,7,1,0
 01-01-2026,Maharashtra,Thane,400608,7,0,0
 01-01-2026,Maharashtra,Thane,400709,10,2,0
@@ -4970,7 +4970,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 11-06-2025,Maharashtra,Thane,421311,3,2,0
 11-06-2025,Maharashtra,Thane,421601,7,3,0
 11-06-2025,Maharashtra,Thane,421604,1,0,0
-13-06-2025,Maharashtra,Thane,400601,4,1,1
+31-12-2025,Maharashtra,Thane,400601,6,2,0
 13-06-2025,Maharashtra,Thane,400605,6,3,0
 13-06-2025,Maharashtra,Thane,400615,2,1,0
 13-06-2025,Maharashtra,Thane,401202,2,2,0
@@ -5026,7 +5026,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 15-06-2025,Maharashtra,Thane,401105,1,0,0
 15-06-2025,Maharashtra,Thane,401305,1,0,0
 15-06-2025,Maharashtra,Thane,421301,0,1,0
-17-06-2025,Maharashtra,Thane,400601,3,4,0
+01-01-2026,Maharashtra,Thane,400601,14,3,0
 17-06-2025,Maharashtra,Thane,400606,3,2,0
 17-06-2025,Maharashtra,Thane,400610,2,1,0
 17-06-2025,Maharashtra,Thane,401305,1,2,0
@@ -5041,7 +5041,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 17-06-2025,Maharashtra,Thane,421505,3,4,0
 17-06-2025,Maharashtra,Thane,421601,18,7,0
 17-06-2025,Maharashtra,Thane,421603,2,2,0
-18-06-2025,Maharashtra,Thane,400601,2,6,0
+02-01-2026,Maharashtra,Thane,400601,11,3,0
 18-06-2025,Maharashtra,Thane,400607,5,3,0
 18-06-2025,Maharashtra,Thane,400614,2,0,0
 18-06-2025,Maharashtra,Thane,400709,3,4,0
@@ -5055,7 +5055,7 @@ date,state,district,pincode,age_0_5,age_5_17,age_18_greater
 18-06-2025,Maharashtra,Thane,421403,0,2,0
 18-06-2025,Maharashtra,Thane,421601,5,3,0
 18-06-2025,Maharashtra,Thane,421602,2,4,0
-19-06-2025,Maharashtra,Thane,400601,4,1,0
+03-01-2026,Maharashtra,Thane,400601,0,0,2
 19-06-2025,Maharashtra,Thane,400608,1,0,1
 19-06-2025,Maharashtra,Thane,400701,8,4,0
 19-06-2025,Maharashtra,Thane,400703,3,9,0
