@@ -1,19 +1,24 @@
 # 🛡️ UIDAI Aadhaar Fraud Intelligence System
-### Thane District — Ghost Center Detection & Operational Risk Segmentation
+### Thane District, Maharashtra | Mar 2025 – Jan 2026
 
-> **Hackathon Project** | UIDAI (Unique Identification Authority of India)  
-> **Scope:** Thane District, Maharashtra | **Coverage:** 96 Pincodes | **Period:** Mar 2025 – Jan 2026
+> Detecting ghost enrollment centers and profiling operational risk across 96 pincodes
+> using custom anomaly scoring, unsupervised ML, and behavioral metrics.
 
 ---
 
 ## 📌 Problem Statement
 
-Aadhaar enrollment and update centers across India generate three independent data streams — **Biometric updates**, **Demographic updates**, and **New Enrollments**. In a healthy, legitimate center, these streams operate in sync. When a center is a **ghost operation** (fraudulent, non-functional, or data-pipeline broken), one or more streams go completely silent while others remain active — creating a measurable, detectable **synchronization gap**.
+Aadhaar centers across India generate three independent data streams — **Biometric updates**,
+**Demographic updates**, and **New Enrollments**. In a healthy, legitimate center, all three
+streams operate in sync. A **ghost center** — fraudulent or non-functional — shows a hard
+imbalance: one stream goes completely silent while others remain active.
 
-This project builds an end-to-end fraud intelligence pipeline that:
-- Detects ghost centers using a custom anomaly score
-- Segments all centers by operational archetype using unsupervised ML
-- Produces a ranked, actionable audit target list for field investigators
+Beyond fraud, UIDAI also needs to understand **how centers behave operationally**:
+- Are adults churning their identities abnormally?
+- Are children complying with mandatory biometric updates?
+- Which areas still need enrollment capacity vs. which are already saturated?
+
+This project builds a complete **data intelligence pipeline** to answer all of these questions.
 
 ---
 
@@ -23,24 +28,37 @@ This project builds an end-to-end fraud intelligence pipeline that:
 HACKATHON UIDAI/
 │
 ├── data/
-│   ├── raw/                                  # Original UIDAI datasets
+│   ├── raw/                                        # Original UIDAI datasets (never modified)
 │   │   ├── Aadhaar Biometric Monthly Update Data.csv
 │   │   ├── Aadhar Demographic Updates for Thane.csv
 │   │   └── Aadhar Enrollment Dataset for Thane.csv
 │   │
 │   └── processed/
-│       └── master_aadhaar_thane.csv          # Merged master dataset
+│       └── master_aadhaar_thane.csv                # Single merged master dataset
 │
 ├── notebooks/
-│   └── Analysis_Report.ipynb                 # Full analysis pipeline
+│   ├── 01_ghost_detection.ipynb                    # Fraud detection + K-Means segmentation
+│   ├── 02_behavioral_metrics.ipynb                 # ICI, BDR, CBCR, Enrollment Saturation
+│   └── 03_visualizations.ipynb                     # All operational charts
+│
+├── reports/                                        # Final analytical outputs
+│   ├── final_audit_targets.csv                     # 42 confirmed fraud targets
+│   ├── ghost_center_list.csv                       # All 179 critical ghost instances
+│   └── pin_summary.csv                             # Behavioral profile of all 96 pincodes
+│
+├── outputs/                                        # All generated charts
+│   ├── volume_distribution.png
+│   ├── sniper_scope.png
+│   ├── risk_segments.png
+│   ├── 01_identity_churn.png
+│   ├── 02_biometric_distress.png
+│   ├── 03_child_compliance.png
+│   ├── 04_enrol_saturation.png
+│   └── 05_child_bio_trend.png
 │
 ├── scripts/
-│   └── 1_create_master_dataset.py            # Data pipeline script
+│   └── create_master_dataset.py                    # Data pipeline script
 │
-├── outputs/                                  # Generated charts & reports
-│
-├── final_audit_targets_confirmed.csv         # 42 high-confidence fraud targets
-├── final_ghost_center_list.csv               # Complete ghost center list
 ├── LICENSE
 └── README.md
 ```
@@ -56,24 +74,50 @@ HACKATHON UIDAI/
 | Aadhar Enrollment Dataset for Thane | 5,064 | 94 | Dec 2025 – Jan 2026 |
 | **master_aadhaar_thane.csv** (processed) | **982** | **96** | **Mar 2025 – Jan 2026** |
 
-All raw datasets share `date`, `state`, `district`, `pincode` as common keys, aggregated monthly by pincode into the master dataset.
+---
+
+## ⚙️ How to Run
+
+### Prerequisites
+
+```bash
+pip install pandas numpy scikit-learn matplotlib seaborn jupyter
+```
+
+### Step 1 — Build the Master Dataset
+
+Run once from the project root. Merges all 3 raw streams into one clean monthly dataset.
+
+```bash
+python scripts/create_master_dataset.py
+```
+
+Output: `data/processed/master_aadhaar_thane.csv`
+
+### Step 2 — Run the Notebooks in Order
+
+```bash
+cd notebooks/
+jupyter notebook
+```
+
+Run in this order:
+1. `01_ghost_detection.ipynb`
+2. `02_behavioral_metrics.ipynb`
+3. `03_visualizations.ipynb`
 
 ---
 
-## ⚙️ Pipeline: Point 1 — Data Engineering (`1_create_master_dataset.py`)
+## 🔍 Pipeline Deep Dive
 
-The data pipeline standardizes and merges all three raw streams into a single analysis-ready master dataset.
+### Script — Data Engineering (`create_master_dataset.py`)
 
-**Steps:**
-1. Load 3 raw CSVs from `data/raw/`
-2. Parse and standardize dates to `DD-MM-YYYY` format
-3. Create monthly period keys (`YYYY-MM`)
-4. Aggregate each stream by `pincode` + `month`
-5. Outer merge all three streams (preserving all records)
-6. Fill nulls with `0`, sort by `pincode` and `month`
-7. Export to `data/processed/master_aadhaar_thane.csv`
+The pipeline loads all 3 raw CSVs, parses and standardizes dates, aggregates each
+stream to monthly level per pincode, then performs a single outer merge to produce
+the master dataset. Nulls are filled with 0, columns are renamed for clarity,
+and stream totals are computed.
 
-**Master Dataset Columns:**
+**Master dataset columns:**
 
 | Column | Description |
 |---|---|
@@ -84,27 +128,24 @@ The data pipeline standardizes and merges all three raw streams into a single an
 
 ---
 
-## 🔬 Analysis Pipeline: Point 2 & 3 (`Analysis_Report.ipynb`)
+### Notebook 01 — Ghost Center Detection
 
-### Step 1 — Feature Engineering: The Metric Factory
+#### Feature Engineering
 
-Five custom behavioral indicators are engineered from the raw transaction data:
+Five behavioral indicators engineered from the master dataset:
 
-| Metric | Formula | What it Detects |
+| Metric | Formula | Purpose |
 |---|---|---|
-| `SGI_Score` (Sync Gap Index) | `abs(bio - demo) / (bio + demo + 1)` | Stream desynchronization → Ghost Centers |
+| `SGI_Score` | `abs(bio_total - demo_total) / (bio_total + demo_total + 1)` | Core ghost detection metric |
+| `total_txn` | `bio_total + demo_total + enrol_total` | Overall center activity volume |
 | `Identity_Churn` | `(demo_adult + bio_adult) / (total_txn + 1)` | Adult identity instability |
-| `Bio_Distress_Adult` | `bio_adult / (demo_adult + 1)` | Biometric-only activity without paired demo updates |
-| `Child_Compliance` | `bio_child / (bio_child + demo_child + 1)` | Children's update compliance ratio |
-| `Enrol_Saturation` | `enrol_total / (total_txn + 1)` | Proportion of activity that is new enrollment |
+| `Bio_Distress` | `bio_adult / (demo_adult + 1)` | Biometric-only pressure |
+| `Enrol_Saturation` | `enrol_total / (total_txn + 1)` | New enrollment proportion |
 
-> **Key Insight:** An SGI_Score > 0.8 means one stream is processing **9x more volume** than the other — a near-impossible pattern for a legitimate, functioning center.
+> **Key insight:** SGI_Score > 0.8 means one stream is processing **9x more volume**
+> than the other — a near-impossible pattern for any legitimate center.
 
----
-
-### Step 2 — Statistical Threshold Discovery
-
-Volume quantile analysis was used to scientifically define operational tiers, avoiding arbitrary cutoffs:
+#### Statistical Threshold Discovery
 
 | Percentile | Monthly Transactions |
 |---|---|
@@ -112,122 +153,115 @@ Volume quantile analysis was used to scientifically define operational tiers, av
 | 50th (Median) | 527 |
 | 75th | 1,501 |
 | 90th | 3,218 |
-| 95th | 5,139 |
-
-**Operational Tiers:**
 
 | Tier | Threshold | Coverage | Action |
 |---|---|---|---|
-| Tier 1 — Watchlist | > 200 txns/month | 70.6% of all center-months | Automated digital alert |
-| Tier 2 — Critical | > 500 txns/month | 51.2% of all center-months | Immediate physical audit |
+| Tier 1 — Watchlist | > 200 txns/month | 70.6% of center-months | Automated digital alert |
+| Tier 2 — Critical | > 500 txns/month | 51.2% of center-months | Immediate physical audit |
 
-![Operational Volume Distribution](outputs/volume_distribution.png)
+![Volume Distribution](outputs/volume_distribution.png)
 
-> The curve shows a classic power-law distribution — ~80% of centers operate below the median, while the top 5% (pincodes like 421302) process 25,000+ monthly transactions. Tier cutoffs are placed at the elbow of the distribution.
+#### Ghost Detection Results
 
----
-
-### Step 3 — Ghost Center Detection Engine
-
-**Detection Logic:**
-- A center is flagged as a **ghost** if its `SGI_Score > 0.8` AND it meets the volume tier threshold
-- SGI_Score > 0.8 indicates one stream is effectively dead while the other runs normally
-
-**Results:**
-
-| Category | Count | Action |
+| Category | Instances | Action |
 |---|---|---|
-| Critical Ghost Centers (Tier 2, > 500 txns) | **179** instances | IMMEDIATE PHYSICAL AUDIT |
-| Watchlist Ghost Centers (Tier 1, 200–500 txns) | **107** instances | AUTOMATED ALERT to operator |
+| Critical Ghost Centers (Tier 2) | **179** | Immediate physical audit |
+| Watchlist Ghost Centers (Tier 1) | **107** | Automated alert to operator |
 
-**Top Critical Ghost Examples:**
+![Sniper Scope](outputs/sniper_scope.png)
 
-| Month | Pincode | Bio Total | Demo Total | SGI Score | Total Txn |
-|---|---|---|---|---|---|
-| 2025-08 | 421302 | 6,767 | 0 | 0.9999 | 6,767 |
-| 2025-04 | 421306 | 4,576 | 0 | 0.9998 | 4,905 |
-| 2025-08 | 400612 | 4,800 | 0 | 0.9998 | 4,800 |
-| 2025-03 | 421302 | 0 | 4,649 | 0.9998 | 4,649 |
+> Ghost centers appear **on the axes** of the scatter — processing thousands of records
+> in one stream with zero activity in the other.
 
-![Sniper Scope Plot](outputs/sniper_scope.png)
+#### K-Means Operational Segmentation (k=4)
 
-> Ghost centers appear **on the axes** of the Bio vs Demo scatter plot — either processing thousands of biometric records with zero demographic updates (X-axis), or vice versa (Y-axis). Healthy centers cluster along the diagonal.
-
----
-
-### Step 4 — Operational Segmentation (K-Means Clustering)
-
-Centers were aggregated to pincode level and segmented using **K-Means (k=4)** with log-transformed features to handle skewed distributions.
-
-**Features used:** `SGI_Score`, `Identity_Churn`, `Bio_Distress_Log`, `Enrol_Saturation`, `Volume_Log`
-
-**Cluster Archetypes:**
-
-| Cluster | Label | Avg Volume | Avg Bio Distress | Avg Churn | Interpretation |
-|---|---|---|---|---|---|
-| 0 | Review: Silent Node | 597 | 107 | 0.70 | Low-volume, borderline centers |
-| 1 | STABLE: Mega-Hub | 6,217 | 324 | 0.70 | Highest volume, best sync |
-| 2 | PRIORITY: Migration Hotspot | 685 | 189 | **0.92** | Highest adult identity churn — population flux |
-| 3 | HIGH-RISK: Desynchronized Hub | 1,884 | **347** | 0.69 | High distress + desync tendency |
-
-![Operational Archetypes](outputs/archetypes_bar.png)
-
-![Systemic Risk Segments](outputs/risk_segments.png)
-
-> In the final scatter plot, **Mega-Hubs (green)** sit near the perfect sync diagonal, confirming legitimate high-volume operation. **HIGH-RISK hubs (red)** cluster away from the diagonal with heavy scatter, revealing systemic desynchronization.
-
----
-
-### Step 5 — Final Audit Target List
-
-A center is confirmed as a **high-confidence fraud target** only if it triggered the Critical Ghost alert in **2 or more separate months** — filtering out one-off glitches.
-
-**Result: 42 High-Confidence Audit Targets identified**
-
-| Rank | Pincode | Ghost Months | Category |
+| Cluster | Label | Avg Volume | Key Signal |
 |---|---|---|---|
-| 1 | 421201 | 6 | HIGH-RISK: Desynchronized Hub |
-| 2 | 401105 | 6 | HIGH-RISK: Desynchronized Hub |
-| 3 | 400709 | 6 | HIGH-RISK: Desynchronized Hub |
-| 4 | 421401 | 6 | HIGH-RISK: Desynchronized Hub |
-| 5 | 421004 | 5 | HIGH-RISK: Desynchronized Hub |
-| ... | ... | ... | ... |
+| 0 | Review: Silent Node | 597 | Low volume, borderline activity |
+| 1 | STABLE: Mega-Hub | 6,217 | Highest volume, best stream sync |
+| 2 | PRIORITY: Migration Hotspot | 685 | Highest adult identity churn |
+| 3 | HIGH-RISK: Desynchronized Hub | 1,884 | High distress + desync tendency |
 
-> Full list exported to `final_audit_targets_confirmed.csv`
+![Risk Segments](outputs/risk_segments.png)
 
-**Breakdown of 42 targets by category:**
-- HIGH-RISK: Desynchronized Hub — **24 centers**
-- PRIORITY: Migration Hotspot — **10 centers**
-- STABLE: Mega-Hub — **5 centers** *(high-volume centers that still showed ghost patterns in some months)*
-- Review: Silent Node — **4 centers**
+#### Final Audit Targets
+
+Centers are confirmed targets only if flagged in **≥ 2 separate months** —
+filtering one-off glitches from genuine patterns.
+
+**42 confirmed audit targets identified from 96 pincodes.**
+
+| Ghost Months | Pincodes | Top Category |
+|---|---|---|
+| 6 months | 4 | HIGH-RISK: Desynchronized Hub |
+| 5 months | 11 | HIGH-RISK: Desynchronized Hub |
+| 4 months | 12 | Mixed |
+| 2–3 months | 15 | Mixed |
+
+> Full list: `reports/final_audit_targets.csv`
 
 ---
 
-## 🚀 How to Run
+### Notebook 02 — Behavioral Metrics
 
-### Prerequisites
+Four metrics build a comprehensive operational profile per pincode,
+all exported to `reports/pin_summary.csv`.
 
-```bash
-pip install pandas numpy scikit-learn matplotlib seaborn jupyter
-```
+#### ICI — Identity Churn Index
+`(demo_adult + bio_adult) / (total_txn + 1)`
 
-### Step 1: Build the Master Dataset
+Persistently high ICI signals structural instability — migration pressure
+or fraudulent identity cycling. 68/96 pincodes (71%) never hit the top-10%
+threshold. 5 pincodes were flagged in 66%+ of their active months.
 
-```bash
-cd scripts/
-python 1_create_master_dataset.py
-```
+![Identity Churn](outputs/01_identity_churn.png)
 
-Output: `data/processed/master_aadhaar_thane.csv`
+#### BDR — Biometric Distress Ratio
+`bio_adult / (demo_adult + 1)`
 
-### Step 2: Run the Analysis
+Measures whether adult biometric updates are paired with demographic
+updates (normal) or happening in complete isolation (distress signal).
+**26 pincodes** fall in the danger zone — high BDR combined with high
+biometric-only frequency.
 
-```bash
-cd notebooks/
-jupyter notebook Analysis_Report.ipynb
-```
+| ICI | BDR | Interpretation |
+|---|---|---|
+| High | High | 🔴 Biometric Distress Zone |
+| High | Low | 🟡 Migration / Address Churn |
+| Low | High | 🟠 Isolated Biometric Problem |
 
-Run all cells in order. Outputs will be generated in the `outputs/` folder.
+![Biometric Distress](outputs/02_biometric_distress.png)
+
+#### CBCR — Child Biometric Compliance Ratio
+`bio_child / (bio_child + demo_child + 1)`
+
+Measures whether children completing Aadhaar updates also complete the
+mandatory biometric component. Most pincodes are compliant (median 0.89)
+but 3 pincodes show complete non-compliance (CBCR = 0.0) across all months.
+
+![Child Compliance](outputs/03_child_compliance.png)
+
+#### Enrollment Saturation
+`enrol_total / (total_txn + 1)`
+
+Thane is heavily saturated — median ES of just 0.013 district-wide.
+Only 10 pincodes still have significant new enrollment activity.
+Guides UIDAI on where to invest in **update infrastructure vs enrollment camps**.
+
+![Enrollment Saturation](outputs/04_enrol_saturation.png)
+
+---
+
+### Notebook 03 — Visualizations
+
+All charts from Notebooks 01 and 02 are consolidated here with enhanced
+annotations and a final verification cell confirming all outputs saved correctly.
+
+**Chart 5 — Monthly Child Biometric Trend:**
+Clear school-season peak in Sep–Nov 2025 (up to 46,000 updates in November),
+with a sharp drop in Jan 2026. Centers need 2–3x capacity during Q3/Q4.
+
+![Child Bio Trend](outputs/05_child_bio_trend.png)
 
 ---
 
@@ -238,11 +272,14 @@ Run all cells in order. Outputs will be generated in the `outputs/` folder.
 | Total center-months analyzed | 982 |
 | Unique pincodes covered | 96 |
 | Time period | Mar 2025 – Jan 2026 (11 months) |
-| Critical Ghost instances detected | 179 |
-| Watchlist Ghost instances detected | 107 |
-| Operational archetypes identified | 4 |
-| High-confidence audit targets | **42** |
-| Top repeat offender ghost months | 6 months (4 pincodes) |
+| Critical ghost instances detected | 179 |
+| Watchlist ghost instances detected | 107 |
+| Confirmed audit targets | **42** |
+| Top repeat offenders | 4 pincodes flagged 6/11 months |
+| Biometric danger zone pincodes | 26 |
+| Low child compliance pincodes | 24 |
+| Enrollment saturated pincodes | 24 |
+| Peak child bio update month | Nov 2025 — 46,000+ updates |
 
 ---
 
@@ -251,24 +288,17 @@ Run all cells in order. Outputs will be generated in the `outputs/` folder.
 | Tool | Purpose |
 |---|---|
 | Python 3.x | Core language |
-| Pandas | Data wrangling & aggregation |
-| NumPy | Numerical operations & log transforms |
+| Pandas | Data wrangling, aggregation, merging |
+| NumPy | Numerical operations, log-transforms |
 | Scikit-learn | K-Means clustering, StandardScaler |
-| Matplotlib / Seaborn | Visualization |
-| Jupyter Notebook | Analysis & reporting |
+| Matplotlib / Seaborn | All visualizations |
+| Jupyter Notebook | Analysis and reporting |
 
 ---
 
 ## 📄 License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
----
-
-## 👥 Contributors
-
-- **nparth29** 
-- **Dumbbot1520**
 
 ---
 
