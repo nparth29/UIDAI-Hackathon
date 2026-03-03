@@ -267,7 +267,8 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 
 ## 👥 Contributors
 
-- **nparth29** — Data Engineering, Feature Engineering, Fraud Detection, ML Segmentation
+- **nparth29** 
+- **Dumbbot1520**
 
 ---
 
